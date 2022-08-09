@@ -1,6 +1,7 @@
 name: Test actions sort list
 on:
   pull_request:
+  
 jobs:
   generate_error:
     runs-on: ubuntu-latest\
