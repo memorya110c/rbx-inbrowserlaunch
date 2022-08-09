@@ -1,0 +1,9 @@
+name: Test actions sort list
+on:
+  pull_request:
+jobs:
+  generate_error:
+    runs-on: ubuntu-latest\
+    steps:
+      - name: Use an action we can not use to generate an error
+        uses: trilom/file-changes-action@a6ca26c14274c33b15e6499323aac178af06ad4b
