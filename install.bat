@@ -1,0 +1,1 @@
+npm i & node buildandinstall.js & pause
